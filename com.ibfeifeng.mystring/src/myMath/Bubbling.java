@@ -20,6 +20,7 @@ public class Bubbling {
 	public static void main(String[] args) {
 		int[] arr = { 1, 3, 2, 6, 5, 1, 4, 9, 7, 0, 22, 44, 22, 77, 76 };
 		int[] arr1 = { 1, 3, 2, 6, 5, 1, 4, 9, 7, 0, 22, 44, 22, 77, 76 };
+		int[] arr2 = { 1, 3, 2, 6, 5, 1, 4, 9, 7, 0, 22, 44, 22, 77, 76 };
 
 		for (int i = 0; i < arr.length - 1; i++) { // 交换 arr.length-1轮
 			for (int j = 0; j < arr.length - i - 1; j++) { // 每轮交换arr.length-i-1次
